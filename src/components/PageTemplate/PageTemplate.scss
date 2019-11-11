@@ -1,25 +1,27 @@
 @import "./src/styles/utils";
 
 .page-template{
-    display: inline-flex;
-    width: 100%;
-    .title-filter{
-        width: 70%;
+    .content-head {
         display: inline-flex;
-        cursor: pointer;
-        user-select: none;
-        .title-style {
-            margin: 1rem;
-            color: black;
+        width: 100%;
+        .title-filter{
+            width: 70%;
+            display: inline-flex;
+            cursor: pointer;
+            user-select: none;
+            .title-style {
+                margin: 1rem;
+                color: black;
+            }
         }
-    }
-    .date-filter {
-        width: 30%;
-        margin: 1rem;
-        display: inline-flex;
-        .date-set {
-            color: $oc-red-4;
-            margin-left: 1rem;
+        .date-filter {
+            width: 30%;
+            margin: 1rem;
+            display: inline-flex;
+            .date-set {
+                color: $oc-red-4;
+                margin-left: 1rem;
+            }
         }
     }
 }

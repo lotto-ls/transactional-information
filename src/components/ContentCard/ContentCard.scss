@@ -1,0 +1,10 @@
+@import "./src/styles/utils";
+
+.contentcard {
+    border-width: 0.1rem 0rem;
+    border-color: $oc-red-4;
+    border-style: solid;
+    .content {
+        padding: 1rem;
+    }
+}
