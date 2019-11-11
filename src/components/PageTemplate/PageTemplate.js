@@ -34,6 +34,15 @@ const PageTemplate = ({children}) => (
             </div>
         </div>
         <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
     </div>
 );
 

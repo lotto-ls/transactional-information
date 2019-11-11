@@ -1,10 +1,37 @@
 @import "./src/styles/utils";
 
 .contentcard {
-    border-width: 0.1rem 0rem;
+    border-width: 0.1rem 0rem 0rem 0rem;
     border-color: $oc-red-4;
     border-style: solid;
     .content {
+        width: 100%;
         padding: 1rem;
+        .colline{
+            display: flex;
+            .spe {
+                width: 10%;
+                align-items: center;
+                color: $oc-red-4;
+            }
+            .how-much {
+                width: 15%;
+                font-weight: 1000;
+            }
+            .when-buy {
+                width: 15%;
+                color: $oc-red-4;
+            }
+            .buy-reason{
+                width:40%;
+            }
+            .balance {
+                width: 15%;
+            }
+            .detail {
+                width: 10%;
+                color: $oc-red-4;
+            }
+        }
     }
 }
